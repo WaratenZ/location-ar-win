@@ -3,8 +3,8 @@ window.onload = () => {
     button.innerHTML = '?';
 
     
-    let places = staticLoadPlaces();
-    renderPlaces(places);
+    // let places = staticLoadPlaces();
+    // renderPlaces(places);
 
     let places_dynamic = getLocation();
     renderPlaces(places_dynamic);
